@@ -7,17 +7,18 @@ ReactNativeNavigation + TypeScript Sample on ReactNative 0.56
 - XCode v9.4.1
 - yarn v1.9.4
 - node v8.11.1
-- react-native-cli: 2.0.1
-- react-native: 0.56.0
+- react-native-cli v2.0.1
+- react-native v0.56.0
+- TypeScript v3.0.1
 
 # Run App
 
 ```
-yarn install && react-native run-android
+yarn install && tsc && react-native run-android
 ```
 
 or
 
 ```
-yarn install && react-native run-ios
+yarn install && tsc && react-native run-ios
 ```
